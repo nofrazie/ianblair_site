@@ -63,3 +63,33 @@ a.btn:hover,.nav li a:hover,.nav-btn:hover{background-color:#cc6cff;color:#fff;t
 #instagram-card { width: 100%; float: left; clear: left; display: block; margin-top: 20px; padding-bottom: 20px; border-bottom: 1px solid #f0f0f0; }
 #instagram-card h3 { letter-spacing: initial; }
 #instagram-card h2 {display: inline-block;text-transform: uppercase;padding:8px 23px; margin:0;background-color:#fff; position: relative;z-index: 1; font-size:14px;color:#444;font-family: 'Montserrat', sans-serif;font-weight:bold;letter-spacing: 2px;-webkit-font-smoothing: antialiased;text-align: center;}
+
+.form {
+  text-align:center;
+  margin: 0 auto 10px;
+  padding: 20px 0 10px 0;
+  font-size: 16px;
+  width: 300px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+  color: #666666;
+  width: 100%;
+  border: 1px solid #E6E6E6;
+  border-radius: 0px; 
+  height: 60px;
+  margin: 6px auto;
+  text-indent: 10px;
+}
+
+.btn-submit {
+  color: #FFFFFF;
+  font-size: 18px;
+  text-transform: uppercase;
+  background: #c91717;
+  padding: 10px 20px;
+  border: 0;
+  margin-top: 6px;
+}
