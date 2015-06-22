@@ -9,6 +9,16 @@
 	</head>
 
 	<body>
+		<div class="container">
+			<% flash.each do |name, msg| %>
+			<% if msg.is_a?(String) %>
+				<div class="alert alert-#{name == :notice ? 'success' : 'error'}">
+					<a href="#" data-dismiss="alert">&times;</a>
+					<%= content_tag :div, msg, :id => "flash_#{name}" %>
+				</div>
+			<% end %>
+			<% end %>
+		</div>
 		<div class="header">
 			<div class="container">
 				<div class="row">
@@ -17,7 +27,7 @@
 							<li><a href="portfolio">Work</a></li>
 							<li><a href="https://medium.com/about-codecademy">Blog</a></li>
 							<li><a href="about">About</a></li>
-							<li><a href="contact">Contact</a></li>
+							<li><%= link_to t('Contact'), new_contact_path %></li>
 						</ul>
 					</div>
 					<div class="name col-xs-4">

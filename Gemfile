@@ -23,6 +23,24 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# Front-end 
+gem 'bootstrap-sass'
+gem 'haml-rails'
+
+# Forms, mail
+gem 'mail_form'
+gem 'simple_form'
+
+#Development
+gem 'better_errors', group: :development
+gem 'quiet_assets', group: :development
+
+#Development Guard
+gem 'guard-rails', group: :development
+gem 'guard-livereload', group: :development
+gem 'rack-livereload', group: :development
+gem 'guard-bundler', group: :development
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
