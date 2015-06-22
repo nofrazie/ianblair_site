@@ -23,6 +23,9 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+#javaScript windows tweak
+gem 'coffee-script-source'
+
 # Front-end 
 gem 'bootstrap-sass'
 gem 'haml-rails'

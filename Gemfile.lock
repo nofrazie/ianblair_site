@@ -238,6 +238,7 @@ DEPENDENCIES
   bootstrap-sass
   byebug
   coffee-rails (~> 4.1.0)
+  coffee-script-source
   guard-bundler
   guard-livereload
   guard-rails

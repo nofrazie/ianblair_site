@@ -60,3 +60,6 @@ a.btn:hover,.nav li a:hover,.nav-btn:hover{background-color:#cc6cff;color:#fff;t
 	.contact .row:last-child{margin:0}
 }
 .hidden{display: none;}
+#instagram-card { width: 100%; float: left; clear: left; display: block; margin-top: 20px; padding-bottom: 20px; border-bottom: 1px solid #f0f0f0; }
+#instagram-card h3 { letter-spacing: initial; }
+#instagram-card h2 {display: inline-block;text-transform: uppercase;padding:8px 23px; margin:0;background-color:#fff; position: relative;z-index: 1; font-size:14px;color:#444;font-family: 'Montserrat', sans-serif;font-weight:bold;letter-spacing: 2px;-webkit-font-smoothing: antialiased;text-align: center;}

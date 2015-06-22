@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   root 'pages#welcome'
   resources "contacts", only: [:new, :create]
   get '/contact' => 'contacts#new'
+  get '/about' => 'pages#about'
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 

@@ -4,7 +4,9 @@
 		<title>Ian F. Blair | Official Website</title>
 		<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,300italic,500,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+		<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   		<%= csrf_meta_tags %>
 	</head>
 
@@ -24,8 +26,9 @@
 				<div class="row">
 					<div class="menu col-xs-8">
 						<ul>
+							<li><a href="/">Home</a></li>
 							<li><a href="portfolio">Work</a></li>
-							<li><a href="https://medium.com/about-codecademy">Blog</a></li>
+							<li><a href="http://ianfblair.tumblr.com/" target="_blank">Blog</a></li>
 							<li><a href="about">About</a></li>
 							<li><%= link_to t('Contact'), new_contact_path %></li>
 						</ul>

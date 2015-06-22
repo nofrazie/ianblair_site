@@ -1,0 +1,30 @@
+<div class="main about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 thumbnail">
+				<img alt="Me" src="http://33.media.tumblr.com/ba5be5c6ae930e40fa952be64c55ce92/tumblr_inline_n56s3lSNYr1rf3ewm.jpg" />
+			</div>
+			<div class="col-md-6">
+				<h2><span class="highlight">Ian Blair</span> is a writer living in New York City.</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="instagram-card">
+    <div class="section-title lines">
+    	<h2><a href="https://instagram.com/i2theb/" target="_blank">Follow @i2theb on Instagram</a></h2>
+    </div>  
+
+    <div id="instafeed"></div>
+
+	<script type="text/javascript">
+		var userFeed = new Instafeed({
+		get: 'user',
+		userId: 2112000552,
+		accessToken: '2112000552.467ede5.cd3431f54ea145db9a6f5c5765e069de',
+		template: '<a class="fancybox desktop-2 mobile-half padded" href="{{image}}" rel="ig" title="{{caption}}"><img class="instagram-image" src="{{image}}" /></a>'
+		});
+		userFeed.run();        
+	</script>
+</div>
