@@ -93,3 +93,34 @@ input[type=password] {
   border: 0;
   margin-top: 6px;
 }
+
+.section-title.lines {
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.section-title.lines a {
+  color: #444;
+}
+
+.section-title.lines h2 {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 8px 23px;
+  margin: 0;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.section-title.lines:after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+  border-bottom: 1px solid #f0f0f0;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 0;
+}
