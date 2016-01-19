@@ -1,88 +1,4 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
 
-*{margin:0;padding:0}
-body,html{font-family:'Roboto', sans-serif;font-weight:300;height:100%;width:100%}
-.container{padding:0 200px 0 280px;width:100%}
-.main{width:100%}
-a.btn{background-color:rgba(0,0,0,0.9);border-radius:0;color:#fff;font-size:18px;font-weight:100;height:60px;line-height:60px;margin:40px 0;padding:0;transition:background-color .5s;width:200px}
-.menu ul{list-style:none;padding-left:0}
-.menu li{display:inline;line-height:100px;font-size:18px;font-weight:500;line-height:100px;height:100px;margin:0 20px 0 0}
-.menu li a{color:#000}
-.name h1{color:#000;font-size:18px;line-height:100px;height:100px;margin:0;text-align:right}
-.footer{background-color:#fff;height:200px;text-align:right;width:100%}
-.footer .social_media{margin:65px 0 20px;width:100%}
-.social_media li{display:inline-block;height:24px;margin:0 0 0 10px;text-align:left;text-indent:-9999px;width:24px}
-.social_media li a{display:block;height:24px;width:24px}
-.linkedin{background-image:url('https://dl.dropboxusercontent.com/u/69054817/linkedin.svg');background-position:center center}
-.twitter{background-image:url('https://dl.dropboxusercontent.com/u/69054817/twitter.svg');background-position:center center}
-.instagram{background-image:url('https://dl.dropboxusercontent.com/u/69054817/instagram.svg');background-position:center center}
-.facebook{background-image:url('https://dl.dropboxusercontent.com/u/69054817/facebook.svg');background-position:center center}
-.gplus{background-image:url('https://dl.dropboxusercontent.com/u/69054817/google_plus.svg');background-position:center center}
-.main .container{margin:80px 0}
-.main h2{color:#000;font-size:48px;line-height:56px;text-align:right}
-.home h2{color:#fff}
-a.btn:hover,.nav li a:hover,.nav-btn:hover{background-color:#cc6cff;color:#fff;transition:background-color .5s}
-.home .jumbotron{background:url('https://dl.dropboxusercontent.com/u/69054817/bg.jpg') center center;background-size:cover;min-height:600px;width:100%}
-.portfolio .jumbotron{height:500px;overflow:hidden;padding:0;width:100%}
-.portfolio .slideshow-container{width:100%}
-.portfolio .slide{height:500px;overflow:hidden;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;transform-style:preserve-3d;width:100%}
-.slide img{position:relative;top:50%;transform:translateY(-50%);width:100%}
-.project,.project:hover{color:#000;margin:0 0 40px;text-decoration:none;transition:color .5s}
-.project:hover{color:#cc6cff}
-.project h3,.project p,.about h2,.about p{padding:0 20px 0}
-.project p{-webkit-box-orient:vertical;display:block;display:-webkit-box;-webkit-line-clamp:3;max-height:300px;overflow:hidden;text-overflow:ellipsis}
-.thumbnail-header{background-color:#eaeff4;display:block;height:20px;width:100%}
-.thumbnail-header-btn{background-color:#fff;border-radius:100%;float:left;height:10px;margin:5px 0 0 5px;width:10px}
-.thumbnail{border:0;border-radius:0;max-height:240px;padding:0;overflow:hidden}
-.about .thumbnail{max-height:400px}
-.about h2{margin:0 0 40px}
-.contact .row{margin:80px 0 0}
-.contact .col-md-2 a{display:block;height:80px;margin:0 auto 40px;text-indent:-9999px;width:80px}
-.highlight{background-color:#eaeff4;color:#000;padding:0 10px 0}
-.right{float:right}
-@media screen and (max-width: 800px){
-	.container{padding:0 20px 0 100px;width:100%}
-	.slide img{height:100%;width:auto}
-	.contact .row:last-child{margin:0}
-}
-.hidden{display: none;}
-#instagram-card { width: 100%; float: left; clear: left; display: block; margin-top: 20px; padding-bottom: 20px; border-bottom: 1px solid #f0f0f0; }
-#instagram-card h3 { letter-spacing: initial; }
-#instagram-card h2 {display: inline-block;text-transform: uppercase;padding:8px 23px; margin:0;background-color:#fff; position: relative;z-index: 1; font-size:14px;color:#444;font-family: 'Montserrat', sans-serif;font-weight:bold;letter-spacing: 2px;-webkit-font-smoothing: antialiased;text-align: center;}
-
-.form {
-  text-align:center;
-  margin: 0 auto 10px;
-  padding: 20px 0 10px 0;
-  font-size: 16px;
-  width: 300px;
-}
-
-input[type=text],
-input[type=email],
-input[type=password] {
-  color: #666666;
-  width: 100%;
-  border: 1px solid #E6E6E6;
-  border-radius: 0px; 
-  height: 60px;
-  margin: 6px auto;
-  text-indent: 10px;
-}
 
 .btn-submit {
   color: #FFFFFF;
@@ -124,3 +40,380 @@ input[type=password] {
   top: 50%;
   z-index: 0;
 }
+
+
+
+
+
+
+
+
+/*
+  AGENCY - A Treehouse template
+  by: http://teamtreehouse.com
+  v.1.0.1
+  License: MIT http://opensource.org/licenses/MIT
+*/
+
+/*Main*/
+
+
+body{
+  color: #B1B9C1;
+  font-size: 1em;
+  font-weight: 200;
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+a {
+  color: #5FB6E1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #53A4C4;
+}
+
+img {
+  width: 100%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.row {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+/*Typography*/
+p {
+  margin-bottom: 40px;
+}
+h1, h2 {
+  font-weight: 400;
+  width: 100%;
+}
+h1 {
+  ;
+}
+h2 {
+  font-size: 42px;
+  color: #465058;
+  margin: 40px 0 0;
+}
+h3 {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 40px 0 0;
+  color: #465058;
+}
+h4 {
+  font-weight: 200;
+  font-size: 24px;
+  margin: 10px 0 0;
+}
+h5 {
+  font-weight: 300;
+  font-size: 20px;
+  margin: 10px 0 40px;
+}
+
+/*Logo*/
+.logo {
+  width: 80px;
+  height: 24px;
+  display: block;
+  float: left;
+  margin: 20px 0;
+  background: url('../img/logo.svg') left center no-repeat;
+  background-size: 80px 16px;
+}
+.description {
+  line-height: 60px;
+  width: 100%;
+  font-size: 1em;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+/*Nav*/
+nav {
+  float: right;
+}
+nav a {
+  transition: .35s linear;
+  padding: 0 10px;
+  font-weight: 500;
+  line-height: 60px;
+  color: #B1B9C1;
+  text-align: right;
+}
+nav a:last-child {
+  padding-right: 0;
+}
+nav a:hover {
+  color: #333;
+}
+nav a.active {
+  color: #465058
+}
+
+/*Button*/
+.button {
+  border: 2px solid #D5DDE4;
+  border-radius: 4px;
+  padding: 12px 20px;
+  color: #777B7E;
+  transition: .35s;
+  font-weight: 400;
+}
+
+.button:hover {
+  border-color: #7CCEEE;
+}
+
+/*Slides*/
+.slides {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto 40px;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+}
+.slide h2 {
+  margin: 25% 0 20px;
+  color: #fff;
+}
+.slide p {
+  width: 60%;
+  margin: 0 20% 40px;
+  font-size: 26px;
+  color: #fff;
+}
+.slide .button {
+  color: #fff;
+  border-color: #fff;
+  opacity: .6;
+}
+.slide .button:hover {
+  opacity: 1;
+}
+.slide img {
+  width: 50%;
+  margin: 100px 50% 100px 10%;
+}
+.blue {
+  background: #3E89BE;
+}
+.orange {
+  background: #F8835A;
+}
+.green {
+  background: #5ECE7F;
+}
+.yellow {
+  background: #FFD365;
+}
+
+/*Footer*/
+footer {
+  margin: 80px 0;
+  float: left;
+  width: 100%;
+}
+.social {
+  margin: 0;
+  padding: 0;
+}
+.social li a {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 10px solid #ccc;
+  opacity: .65;
+  transition: .35s linear;
+}
+.social li a:hover {
+  opacity: 1;
+}
+.social .pink {
+  border-color: #FF8DB3
+}
+.social .light-blue {
+  border-color: #7CCEEE
+}
+.social .dark-blue {
+  border-color: #3E89BE
+}
+
+/*Work Page*/
+.frame {
+  padding: 20%;
+  border-radius: 10px;
+  margin: 40px 10px 0;
+}
+.item {
+  margin-bottom: 40px;
+}
+
+
+
+/*Team*/
+.team {
+  margin-bottom: 60px;
+}
+.avatar {
+  width: 50%;
+  display: block;
+  border-radius: 50%;
+  margin: 0 25%;
+}
+
+/*Grid*/
+.grid-full {
+  width: 100%;
+  float: left;
+}
+.grid-half {
+  width: 50%;
+  float: left;
+}
+.grid-third {
+  width: 27.33333%;
+  margin: 0 3%;
+  float: left;
+}
+.grid-fourth {
+  width: 25%;
+  float: left;
+}
+.grid-fifth {
+  width: 20%;
+  float: left;
+}
+
+/*Media Quiries*/
+@media (max-width: 1000px) {
+  .slides p {
+    font-size: 18px;
+  }
+  .grid-fifth {
+    width: 27.333333%;
+    margin: 0 3%;
+  }
+}
+@media (max-width: 700px) {
+  .tagline {
+    display: none;
+  }
+  .logo {
+    display: none;
+    margin: 20px auto 0;
+  }
+  .grid-half {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .grid-third {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .grid-fifth {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .row {
+    padding: 0 10px;
+  }
+  nav {
+    width: 100%;
+  }
+  nav a {
+    transition: 0s;
+    width: 33.333333%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .description {
+    display: none;
+  }
+  .slide img {
+    width: 80%;
+    margin: 100px 10%;
+  }
+
+  .frame {
+    margin: 40px 0 0;
+  }
+  .item {
+    margin-bottom: 60px;
+  }
+  .item h3 {
+    margin-top: 20px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+}
+
+/*Sticky*/
+
+.header {
+  background-color: white;
+  transition: 1s;
+}
+
+.is-sticky .header {
+  background-color: black;
+  z-index: 1000;
+}
+
+.is-sticky .work {
+  background: #fff;
+  padding: 12px 0;
+  margin: 0;
+}
+
+/* slick styles */
+.slick-dots {
+    bottom: 20px;
+}
+.slick-dots li button:before {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
